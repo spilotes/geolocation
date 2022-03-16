@@ -78,6 +78,10 @@ footer .logo-footer {
 }
 
 @media (max-width: 414px) {
+  body {
+    height: 95vh;
+  }
+
   main #location {
     font-size: 1.2rem;
   }
