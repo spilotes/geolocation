@@ -92,9 +92,9 @@ footer .logo-footer {
     margin-left: 1rem;
   }
 
-  footer .powered {
+ footer .powered {
     margin-top: -1rem;
-    margin-left: 13rem;
+    margin-left: 13.9rem;
   }
 
   footer .logo-footer {
@@ -102,5 +102,6 @@ footer .logo-footer {
     height: 1.4rem;
     margin-top: -0.2rem;
     margin-right: 1rem;
+    margin-left: 0.1rem;
   }
 } ;
