@@ -53,9 +53,6 @@ main #location:hover {
   color: #000;
   display: column;
   box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.5);
-  bottom: 0;
-  margin: auto auto;
-  position: absolute;
 }
 
 footer .copy {
@@ -78,10 +75,6 @@ footer .logo-footer {
 }
 
 @media (max-width: 414px) {
-  body {
-    height: 95vh;
-  }
-
   main #location {
     font-size: 1.2rem;
   }
@@ -90,7 +83,7 @@ footer .logo-footer {
     height: 5rem;
     font-size: 0.9rem;
     bottom: 0;
-    position: absolute;
+    position: fixed;
   }
 
   footer .copy {
@@ -98,14 +91,14 @@ footer .logo-footer {
   }
 
   footer .powered {
-    margin-top: -1rem;
-    margin-left: 12.8rem;
+    margin-top: -1.1rem;
+    margin-left: 11rem;
   }
 
   footer .logo-footer {
-    width: 7rem;
-    height: 1.5rem;
-    margin-top: 1rem;
-    margin-left: 0.2rem;
+    width: 6rem;
+    height: 1.4rem;
+    margin-top: -0.2rem;
+    margin-right: 1.2rem;
   }
 } ;
