@@ -85,6 +85,8 @@ footer .logo-footer {
   .footer {
     height: 5rem;
     font-size: 0.9rem;
+    bottom: 0;
+    position: absolute;
   }
 
   footer .copy {
@@ -99,7 +101,7 @@ footer .logo-footer {
   footer .logo-footer {
     width: 7rem;
     height: 1.5rem;
-    margin-top: -0.4rem;
-    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
   }
 } ;
