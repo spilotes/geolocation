@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#45c270),
+    to(#21cdc3)
+  );
+}
+
+.world {
+  width: 15rem;
+  top: 4rem;
+  left: 41%;
+  cursor: pointer;
+  border-radius: 7.5rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.world:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  width: 8rem;
+  top: 20.5rem;
+  left: 47.5%;
+  position: absolute;
+}
+
+main .info {
+  display: none;
+}
+
+main p {
+  top: 27rem;
+  left: 35.6%;
+  font-size: 1.2rem;
+  text-align: center;
+  align-items: center;
+  display: block;
+  position: absolute;
+}
+
+main p:hover {
+  transform: scale(1.03);
+}
+
+main #location {
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+@media (max-width: 414px) {
+  main #location {
+    font-size: 1.2rem;
+  }
+
+  .world {
+    width: 10rem;
+    top: 5rem;
+    left: 15%;
+  }
+} ;
