@@ -67,17 +67,19 @@ main #location {
   main .world {
     width: 15rem;
     top: 4rem;
-    left: 22%;
+    left: auto;
+    right: auto;
   }
 
   main .logo {
-    top: 18.5rem;
+    top: 20rem;
     left: 43%;
   }
 
   main #location {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 
-    left: 2.7rem;
+    left: auto;
+    right: auto;
   }
 } ;
