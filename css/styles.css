@@ -72,16 +72,16 @@ main #location {
   .world {
     width: 12rem;
     top: 4rem;
-    left: 25%;
+    left: 26%;
   }
 
   .logo {
-    top: 15rem;
-    left: 27%;
+    top: 18rem;
+    left: 37%;
   }
 
   p {
     top: ;
-    left: 4%;
+    left: -6rem;
   }
 } ;
