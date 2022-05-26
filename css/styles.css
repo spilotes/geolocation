@@ -70,8 +70,18 @@ main #location {
   }
 
   .world {
-    width: 10rem;
-    top: 5rem;
-    left: 15%;
+    width: 12rem;
+    top: 4rem;
+    left: 25%;
+  }
+
+  .logo {
+    top: 15rem;
+    left: 27%;
+  }
+
+  p {
+    top: ;
+    left: 4%;
   }
 } ;
