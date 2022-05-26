@@ -54,13 +54,14 @@ main p {
   position: absolute;
 }
 
-main p:hover {
-  transform: scale(1.03);
-}
-
 main #location {
   font-size: 1.4rem;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+main #location:hover {
+  transform: scale(1.03);
 }
 
 @media (max-width: 414px) {
