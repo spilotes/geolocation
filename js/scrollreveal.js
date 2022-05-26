@@ -6,6 +6,6 @@ ScrollReveal().reveal(".logo", {
   duration: 5000,
 });
 
-ScrollReveal().reveal(".location", {
+ScrollReveal().reveal("#location", {
   duration: 5000,
 });
