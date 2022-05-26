@@ -27,7 +27,6 @@ body {
   border-radius: 7.5rem;
   position: absolute;
   transition: all 0.3s ease-in-out;
-  visibility: hidden;
 }
 
 .world:hover {
@@ -39,7 +38,6 @@ body {
   top: 20.5rem;
   left: 47.5%;
   position: absolute;
-  visibility: hidden;
 }
 
 main .info {
@@ -54,7 +52,6 @@ main p {
   align-items: center;
   display: block;
   position: absolute;
-  visibility: hidden;
 }
 
 main p:hover {
