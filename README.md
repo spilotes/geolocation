@@ -1,6 +1,4 @@
-#Mobile
 <img src="./img/mobile-home.jpeg">
-#Desktop
 <img src="./img/desktop-home.png">
 
 
