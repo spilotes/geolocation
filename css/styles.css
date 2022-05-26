@@ -67,8 +67,7 @@ main #location {
   main .world {
     width: 15rem;
     top: 4rem;
-    left: auto;
-    right: auto;
+    left: 22%;
   }
 
   main .logo {
@@ -77,9 +76,8 @@ main #location {
   }
 
   main #location {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 
-    left: auto;
-    right: auto;
+    left: 4%;
   }
 } ;
