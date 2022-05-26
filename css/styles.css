@@ -65,23 +65,23 @@ main #location {
 }
 
 @media (max-width: 414px) {
-  main #location {
-    font-size: 1.2rem;
-  }
-
-  .world {
-    width: 12rem;
+  main .world {
+    width: 13rem;
     top: 4rem;
     left: 26%;
   }
 
-  .logo {
+  main .logo {
     top: 18rem;
-    left: 37%;
+    left: 47%;
   }
 
-  p {
+  main #location {
+    font-size: 1.2rem;
+  }
+
+  main p {
     top: ;
-    left: -6rem;
+    left: -18rem;
   }
 } ;
