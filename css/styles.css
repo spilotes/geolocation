@@ -50,13 +50,12 @@ main .info {
 }
 
 main p {
-  top: 27rem;
-  left: 35.6%;
-  font-size: 1.2rem;
-  text-align: center;
-  align-items: center;
-  display: block;
+
   position: absolute;
+  top: 40vh;
+  width: 15vw;
+  left: 50%;
+  transform: translate(-50%);  display: block;
 }
 
 main #location {
