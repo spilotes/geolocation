@@ -28,6 +28,7 @@ body {
   width: 15vw;
   left: 50%;
   transform: translate(-50%);
+  border-radius: 50%;
   cursor: pointer;
   filter: drop-shadow(0 0 0.4rem #000);
   transition: all 1s ease-in-out;
