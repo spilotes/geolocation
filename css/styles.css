@@ -51,7 +51,7 @@ main .info {
 
 main p {
   position: absolute;
-  top: 40vh;
+  top: 65vh;
   width: 15vw;
   left: 50%;
   transform: translate(-50%);
@@ -63,10 +63,6 @@ main #location {
   cursor: pointer;
   filter: drop-shadow(0 0 0.4rem #000);
   transition: all 0.2s ease-in-out;
-}
-
-main #location:hover {
-  transform: scale(1.03);
 }
 
 @media (max-width: 414px) {
